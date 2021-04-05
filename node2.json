@@ -1,6 +1,6 @@
-{ "family": "certcluster", "containerDefinitions": [ { "image": "758181067640.dkr.ecr.ap-south-1.amazonaws.com/repos123:latest", "name": "cert", 
+{ "family": "quizcluster", "containerDefinitions": [ { "image": "758181067640.dkr.ecr.ap-south-1.amazonaws.com/quizrepo:latest", "name": "quiz", 
 "cpu": 10, "memory": 256, "essential": true, "portMappings": [
-{ "containerPort": 80, "hostPort": 8080
+{ "containerPort": 80, "hostPort": 8081
 }
 ]
 }
