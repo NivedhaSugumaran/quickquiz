@@ -1,0 +1,8 @@
+{ "family": "certcluster", "containerDefinitions": [ { "image": "758181067640.dkr.ecr.ap-south-1.amazonaws.com/repos123:latest", "name": "cert", 
+"cpu": 10, "memory": 256, "essential": true, "portMappings": [
+{ "containerPort": 80, "hostPort": 8080
+}
+]
+}
+]
+}
